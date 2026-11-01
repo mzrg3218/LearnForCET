@@ -1,0 +1,13 @@
+# 这些文件不作为静态资源部署（wrangler deploy 时）
+functions/
+tools/
+migrations/
+wrangler.toml
+DEPLOY.md
+PAGES-DEPLOY.md
+README.md
+.assetsignore
+learnforcet-cloudflare.zip
+js/import.js
+js/lib/
+js/exam-sentences.js

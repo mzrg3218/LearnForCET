@@ -1,0 +1,22 @@
+# 依赖与构建产物
+node_modules/
+.stage/
+learnforcet-cloudflare/
+learnforcet-cloudflare.zip
+
+# Wrangler 本地状态（含本地 D1 数据）
+.wrangler/
+
+# 数据管线中间产物（可由 tools/ 重新生成）
+tools/cet4.json
+tools/cet6.json
+tools/exam_lines.json
+
+# 系统 / 编辑器
+.DS_Store
+Thumbs.db
+.Rhistory
+.RData
+.idea/
+.vscode/
+*.log

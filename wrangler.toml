@@ -1,0 +1,14 @@
+name = "learnforcet"
+main = "worker/index.js"
+compatibility_date = "2025-01-01"
+
+# 静态资源（网站本体），/api/* 之外的请求自动回退到 index.html
+[assets]
+directory = "."
+not_found_handling = "single-page-application"
+
+# D1 数据库：先 `wrangler d1 create learnforcet`，把返回的 database_id 填到下面
+[[d1_databases]]
+binding = "DB"
+database_name = "learnforcet"
+database_id = "TODO_FILL_AFTER_wrangler_d1_create"
